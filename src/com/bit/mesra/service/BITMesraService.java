@@ -15,5 +15,15 @@ public class BITMesraService {
 		
 		
 	}
+	public List<String> getAllProfessors() {
+		List<String> mesraStudents = new ArrayList<>();
+		mesraStudents.add("ABC");
+		mesraStudents.add("PQR");
+		mesraStudents.add("XYZ");
+		
+		return mesraStudents;
+		
+		
+	}
 
 }
