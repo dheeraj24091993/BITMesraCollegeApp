@@ -7,5 +7,7 @@ public class BitMesraClient {
 		System.out.println("Wel come to BIT Mesra College App");
 
 	}
+                 BITMesraService bs = new BITMesraService();
+                bs.getAllStudents();                
 
 }
